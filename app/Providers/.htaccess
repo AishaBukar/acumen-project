@@ -1,10 +1,10 @@
-<!-- <IfModule mod_rewrite.c>
+<IfModule mod_rewrite.c>
     RewriteEngine on
     RewriteCond %{REQUEST_URL} !^public
     RewriteRule ^(.*)$ public/$1 [L]
-</IfModule> -->
+</IfModule>
 
-<IfModule mod_rewrite.c>
+<!-- <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews
     </IfModule>
@@ -21,4 +21,4 @@
     RewriteRule ^ index.php [L]
 
     # Handle Authorization Header
-    RewriteC
+    RewriteC -->
