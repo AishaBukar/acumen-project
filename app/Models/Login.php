@@ -7,10 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Login extends Model
 {
+
     use HasFactory;
+    protected $table = "login";
     protected $fillable = [
-        'id',
-        'email',
-        'password'
+        'id'=> "1",
+        'email' => "admin@admin.com",
+        'password' => "password"
     ];
 }
