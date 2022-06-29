@@ -11,7 +11,7 @@
     <body>
         <div class="container ">
             <div class="row">
-                <div class="col-lg-12 ">
+                <div class="col-lg-12 margin-tb">
                     <div class="pull-left ">
                         <h2>Add Company</h2>
                     </div>
@@ -25,6 +25,7 @@
                 {{ session('status') }}
             </div>
             @endif
+        </div>
             <form action="{{ route('companys.store') }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="row">
