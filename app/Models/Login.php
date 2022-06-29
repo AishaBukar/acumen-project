@@ -11,8 +11,8 @@ class Login extends Model
     use HasFactory;
     protected $table = "login";
     protected $fillable = [
-        'id'=> "1",
-        'email' => "admin@admin.com",
-        'password' => "password"
+        'id',
+        'email', 
+        'password'
     ];
 }
