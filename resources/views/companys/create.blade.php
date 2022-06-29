@@ -1,19 +1,11 @@
 @extends('companys.layout')
-  
+   
 @section('content')
-<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Add Company Form</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
-    </head>
-    <body>
-        <div class="container ">
+<div class="container ">
             <div class="row">
                 <div class="col-lg-12 margin-tb">
                     <div class="pull-left ">
-                        <h2>Add Company</h2>
+                        <h2>Add Company Form</h2>
                     </div>
                 <div class="pull-right">
                     <a class="btn btn-primary" href="{{ route('companys.index') }}"> Back</a>
@@ -74,10 +66,6 @@
         
         
             </form>
-        </div>
-    </body>
-    </html>
-
-
-
+</div>
 @endsection
+
