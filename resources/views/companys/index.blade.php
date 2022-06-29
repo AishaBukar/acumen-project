@@ -24,7 +24,7 @@
             <th>Name</th>
             <th>Email</th>
             <th width="280px">Website</th>
-                   </tr>
+        </tr>
         @foreach ($companys as $company)
         <tr>
             <td>{{ ++$i }}</td>

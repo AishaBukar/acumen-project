@@ -86,11 +86,7 @@ class CompanyController extends Controller
     'email' => 'required',
     'website' => 'required',
     ]);
-    // $companies = companies::find($id);
-    // $companies->name = $request->name;
-    // $companies->email = $request->email;
-    // $companies->website = $request->website;
-    // $companies->save();
+    
     $company->update($request->all());
     
     return redirect()->route('companys.index')
