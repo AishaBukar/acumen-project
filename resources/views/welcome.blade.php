@@ -44,6 +44,9 @@
                         </g>
                     </svg>
 
+                    
+                </div>
+                <div>
                     <h2>Please Login with your desktop for optimum use of this website!</h2>
                     <h3><strong><i>Regards,Aisha</i></strong><h3>
                 </div>
